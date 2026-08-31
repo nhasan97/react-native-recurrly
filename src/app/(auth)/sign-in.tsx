@@ -4,9 +4,9 @@ import { Text, View } from "react-native";
 const SignIn = () => {
   return (
     <View>
-      <Text>SignIn</Text>
+      <Text className="mb-20">SignIn</Text>
 
-      <Link href="/(auth)/sign-in"> go to Sign Up</Link>
+      <Link href="/(auth)/sign-up"> go to Sign Up</Link>
     </View>
   );
 };
