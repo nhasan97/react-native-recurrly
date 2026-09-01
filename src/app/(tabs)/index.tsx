@@ -1,9 +1,10 @@
 import { Link } from "expo-router";
-import { Pressable, Text, View } from "react-native";
+import { Pressable, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center bg-blue-500">
+    <SafeAreaView className="flex-1 items-center justify-center bg-blue-500 p-5">
       <Text className="text-2xl font-bold text-white">
         NativeWind is working ...woah! Alhamdulillah🎉
       </Text>
@@ -34,6 +35,6 @@ export default function Index() {
       >
         Claud Max Subscription
       </Link>
-    </View>
+    </SafeAreaView>
   );
 }
